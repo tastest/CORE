@@ -26,7 +26,6 @@ bool goodEGTrigger5July2010 (bool mc) {
       LorentzVector v = p4HLTObject("HLT_Photon10_L1R", i);
       if (v.pt() > 15.) return true;
     }
-    std::cout << "test" << std::endl;
   } else {  // data now
     int e10 = nHLTObjects("HLT_Ele10_LW_L1R");
     if (e10 != 0) return true;

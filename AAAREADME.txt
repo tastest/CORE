@@ -5,4 +5,4 @@ Good examples:
   * selections.C
   * utilities/code used for selections
 
-Please keep number of files as small as possible.
+Please keep number of files as small as possible. Or else.
